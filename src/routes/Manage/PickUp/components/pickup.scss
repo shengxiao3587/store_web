@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+.pickup {
+  flex: 1;
+  margin: 16px;
+}
+.pickup .pickup_child {
+  background: #FFFFFF;
+  border-radius: 2px;
+  /*height: 304px;*/
+  margin-top: 16px;
+  padding: 20px;
+  border: none;
+}
+.pickup_h2 {
+  font-size: 20px;
+  color: #333333;
+  margin-left: 1.1%;
+}
+.pickup_h3 {
+  font-size: 16px;
+  color: #333333;
+}
+.pickup .pickup_child .pickup_radio {
+  -webkit-transition: background .4s ease;
+  -moz-transition: background .4s ease;
+  -o-transition: background .4s ease;
+  transition: background .4s ease;
+}
+.pickup .pickup_child .pic p, .pickup .pickup_child .picy p{
+  color: red;
+}
+.pickup .pickup_child .pic{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  border: 1px solid #c2c2c2;
+  -webkit-transition: background .4s ease;
+  -moz-transition: background .4s ease;
+  -o-transition: background .4s ease;
+  transition: background .4s ease;
+}
+.pickup .pickup_child .picy{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  border: 1px solid #c2c2c2;
+  -webkit-transition: background .4s ease;
+  -moz-transition: background .4s ease;
+  -o-transition: background .4s ease;
+  transition: background .4s ease;
+}
+.pickup .ant-radio-group.ant-radio-group-large .ant-radio-button-wrapper {
+  width: 120px;
+  height: 138px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.5em;
+  overflow: hidden;
+  margin-right: 10%;
+/*  white-space: nowrap;*/
+/*  text-overflow: ellipsis;*/
+}
+.pickup, .pickup div {
+  width: 100%;
+/*  font-size: 15px;*/
+}
+.pickup .ant-radio-group.ant-radio-group-large {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.pickup .ant-radio-group.ant-radio-group-large .ant-radio-button-wrapper-checked {
+  border-color: #ffdb08;
+  box-shadow: none;
+}
+.pickup .ant-radio-group.ant-radio-group-large .ant-radio-button-wrapper-checked:hover {
+  border-color: #ffe443;
+}
+
+.pickup .ant-radio-group.ant-radio-group-large .ant-radio-button-wrapper:hover {
+  border-color: #ffdb08;
+
+}
+.pickup>p, .pickup>h2 {
+  margin: 16px;
+}
+.pickup .pickup_radio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pickup .down_style_special {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px 16px 0px 0px;
+}
+.pickup .down_style_special .pickup_radio_special {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  margin-right: 10%;
+  font-size: 16px;
+  color: rgba(0,0,0,0.65);
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+}
+.pickup .down_style_special .pickup_radio_special:hover .pickup_radio_h2{
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
+}
+.pickup .downStyle a {
+  display: inline-block;
+  font-size: 12px;
+  color: #1D61F0;
+  padding-bottom: 4px;
+  width: 100%;
+  text-align: left;
+  padding-left: 4px;
+}
+.pickup .downStyle {
+  span {
+    font-size: 12px;
+    padding-bottom: 4px;
+    width:118px;
+    text-align: center;
+    display: inline-block;
+  }
+  .downfile {
+    width: 120px;
+    display: block;
+  }
+}
+
+.pickup .pickup_radio_h2 {
+  width: initial;
+  font-size: 16px;
+}
+.pickup .ant-radio-button-wrapper-checked {
+  color: #333333;
+}
+.pickup_instructions {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #999999;
+}
+.pickup_instructions p {
+  line-height: 14px;
+  margin: 2px 0px;
+}
+.pickup_radio_special .pickup_instructions {
+  margin-top: 10px;
+}
+.ant-confirm .ant-modal-body .ant-confirm-content {
+  white-space: normal !important;
+}
+.onlyOneButton {
+  margin-left: 0 !important;
+  width: 200px;
+  height: 36px;
+}
+.processPic .processStatus{
+  font-size: 18px;
+  color: #ff3737;
+  margin-left: 190px;
+}

@@ -1,0 +1,48 @@
+.expressDeatil .detail{
+  background: #ffffff !important;
+  margin: 16px 1px;
+  padding-top: 16px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 1px rgba(0,0,0,.072);
+  border: 1px solid #e5e9e8;
+}
+
+.expressDeatil .ant-input-group {
+  height: 32px;
+}
+.expressDeatil .ant-input-affix-wrapper {
+  height: 30px;
+}
+.expressDeatil .ant-input-group-addon {
+  width: 48%;
+}
+.expressDeatil .ant-input-group-wrapper {
+  width: 100%;
+}
+.xg .expressDeatil .ant-form .ant-form-item.xg-form-item .ant-form-explain {
+  width: 269px;
+  right: -277px;
+}
+/*.expressDeatil .has-error .ant-input-group-addon {
+  color: rgba(0,0,0,.65);
+}*/
+.xg .expressDeatil .ant-form .ant-form-item.xg-form-item .has-error .ant-input-group-addon {
+  color: rgba(0,0,0,.65);
+}
+.xg .expressDeatil .ant-btn.ant-btn-primary.ant-btn-lg {
+  margin-left: 23%;
+  margin-top: 20px;
+  float: left;
+}
+/*.xg .expressDeatil .ant-btn.ant-btn-primary.ant-btn-lg:last-child {
+  margin-left: 2%;
+}*/
+.expressDeatil input {
+  padding-left:8px;
+}
+
+.expressDeatil .title {
+  font-size: 20px;
+  font-weight: normal;
+  color: #333;
+}

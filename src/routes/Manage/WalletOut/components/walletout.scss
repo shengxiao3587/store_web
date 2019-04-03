@@ -1,0 +1,89 @@
+.walletOut {
+  .title {
+    font-size: 20px;
+    padding: 15px 16px;
+    font-weight: normal;
+    color: #333;
+  }
+  .warmTitle {
+    font-size: 14px;
+    color: #999999;
+    margin-top: 16px;
+  }
+  .balance {
+    width: 100%;
+    padding: 8px 32px 16px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    .money, .icon {
+      font-size: 40px;
+      color: #333333;
+    }
+    .value {
+      font-size: 56px;
+      color: #333333;
+    }
+  }
+  .detail {
+    width: 100%;
+    //height: 560px;
+    background-color: #ffffff;
+    margin-top: 32px;
+    .detailPage-form-item {
+      background: rgba(255,216,0,0.10);
+      font-size: 14px;
+      color: #FF4444;
+      padding-left: 4%;
+    }
+  }
+  .detailPage {
+    width: 100%;
+    height: 88px;
+    div{
+      width:100%;
+    }
+    .Wallet_bankStyle {
+      width: calc(100% - 64px);
+      height: 88px;
+      font-size: 16px;
+      color: #333333;
+      margin: 0 32px;
+      line-height: 88px;
+      border-bottom: 1px solid #e6e6e6;
+      img {
+        width: 175px;
+        height: 50px;
+        vertical-align: middle;
+      }
+      .Wallet_bankStyle_bank {
+        margin-left: 8px;
+      }
+      .Wallet_bankStyle_bankNum {
+        margin-left: 30px;
+        line-height: 20px;
+      }
+      .Wallet_bankStyle_bankType {
+        margin-left: 30px;
+      }
+    }
+  }
+  .takeout-form-item {
+    margin-top:16px;
+    .ant-form-item-control-wrapper .ant-form-item-control:after  {
+      content: attr(data-content);
+      visibility: visible;
+      font-size: 12px;
+    }
+  }
+}
+.xg .walletOut .ant-btn.ant-btn-lg {
+  height: 40px;
+  width: 220px;
+}
+.xg .walletOut .ant-btn{
+  height: 40px;
+}

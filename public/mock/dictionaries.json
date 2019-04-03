@@ -1,0 +1,41 @@
+{
+  "storeBusiness": [{
+    "value": 0,
+    "label": "快递背景代办点"
+  }, {
+    "value": 1,
+    "label": "个人创业"
+  }, {
+    "value": 2,
+    "label": "便利店"
+  }, {
+    "value": 3,
+    "label": "水果店"
+  }, {
+    "value": 4,
+    "label": "奶茶店"
+  }, {
+    "value": 5,
+    "label": "干洗店"
+  }, {
+    "value": 6,
+    "label": "其他"
+  }],
+  "storeSource": [{
+    "value": 0,
+    "label": "自营"
+  }, {
+    "value": 1,
+    "label": "加盟"
+  }],
+  "storeType": [{
+    "value": 0,
+    "label": "校园店"
+  }, {
+    "value": 1,
+    "label": "社区店"
+  }, {
+    "value": 2,
+    "label": "园区店"
+  }]
+}

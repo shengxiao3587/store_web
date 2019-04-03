@@ -1,0 +1,203 @@
+.senderDetail {
+  margin: 30px;
+  .ant-select-auto-complete.ant-select {
+    .ant-input[disabled] {
+      color: #323232;
+    }
+  }
+  .ant-select-auto-complete.ant-select .ant-input {
+    font-size: 14px;
+  }
+  .ant-select-selection-selected-value {
+    font-size: 14px;
+  }
+  .ant-input {
+    font-size: 14px;
+  }
+  .ant-col-16 {
+     .ant-row {
+         border-top: none !important;
+         margin-left: 115px !important;
+     }
+  }
+  .ant-col-24 {
+     .ant-form-item {
+        border-bottom: none !important;
+     }
+  }
+  .senderDetail_title-form-item_body {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #FF3737;
+    font-weight: initial;
+  }
+  .senderDetail_storeDetail {
+    font-size: 16px;
+    color: #999999;
+    margin: 30px 0px;
+  }
+
+  .senderDetail_title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #FFDB07;
+    height: 70px;
+    padding-left: 30px;
+    span {
+      font-size: 20px;
+      color: #333333;
+      font-weight: 600;
+    }
+    p {
+      margin-left: 16px;
+    }
+    //.senderDetail_title_paidFlag {
+    //  background: #DBBC06;
+    //  border-radius: 54px;
+    //  width: 60px;
+    //  line-height: 24px;
+    //  font-size: 13px;
+    //  height: 24px;
+    //  color: #877611;
+    //  text-align: center;
+    //  font-family: PingFangSC-Regular;
+    //}
+    img {
+      margin-left: 16px;
+      //width: 80px;
+      height: 24px;
+    }
+  }
+  .ant-form-title {
+    //margin-bottom: 0px;
+    padding: 0 40px 0 56px;
+    opacity: 0.99;
+    background: #EEEEEE;
+    box-shadow: 0 0 4px 0 rgba(204,204,204,0.20);
+    border-radius: 2px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+  }
+  .ant-form-title.senderNew-form-item {
+    background: url(//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/sender@2x.png) no-repeat 30px 18px;
+    background-size: 20px 20px;
+  }
+  .ant-form-title.parcel-form-item {
+    background: url(//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/parcel@2x.png) no-repeat 30px 18px;
+    background-size: 20px 20px;
+  }
+  .ant-form-title.recipient-form-item {
+    background: url(//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/recipient@2x.png) no-repeat 30px 18px;
+    background-size: 20px 20px;
+  }
+  .personCenter {
+    .ant-btn+.ant-btn {
+      margin-left: 40px;
+    }
+    .ant-col-16 {
+      .ant-form-item-label {
+        width: 5px;
+      }
+    }
+    .ant-form-item-label {
+      justify-content: initial;
+      width: 140px;
+      label {
+        margin-left: 30px;
+        font-size: 14px;
+      }
+    }
+    .ant-form-item-label {
+      line-height: 40px;
+    }
+    .ant-form-item.noRight-form-item {
+      border-right: none;
+    }
+    .ant-form .ant-form-item-control {
+      padding: 3px 5px 2px 0px;
+    }
+    .ant-input.doubleInput_start {
+      width: 50%;
+    }
+    .detailPage_formitem {
+      padding-top: 90px;
+    }
+    .ant-row {
+      margin-bottom: 40px;
+    }
+    .ant-row.ant-form-item.distributionDetails_div-form-item {
+      margin-top: 40px;
+      height: 20px;
+      //background: #fff;
+    }
+    .ant-row.ant-form-item.distributionDetails_divlast-form-item {
+      margin-bottom: 20px;
+      margin-top: 40px;
+      height: 20px;
+      background-color: #f6f6f6;
+      //background: #fff;
+    }
+    .distributionDetails_div-form-item {
+      height: 30px;
+    }
+    .ant-select {
+      position: relative;
+    }
+    .ant-form-explain {
+      position: absolute;
+      top: 11px;
+      right: 10px;
+      background-color: white;
+    }
+    .doubleInput_end {
+      background: #FFFFFF;
+      border: 0.5px solid #09BD26;
+      border-radius: 10px;
+      width: 120px;
+      text-align: center;
+      color: #09BD26;
+    }
+    .ant-col-24 {
+      .ant-form-item {
+        border-bottom: .5px solid #e6e6e6;
+      }
+    }
+    .ant-col-16 {
+      .ant-form-item {
+        border-right: none;
+      }
+    }
+    .actuallyFee-form-item {
+      label {
+        color: black;
+        //font-weight: bold;
+        font-size: 14px;
+      }
+      .ant-input.ant-select-search__field {
+        font-size: 36px;
+        font-weight: 700;
+        height: 40px !important;
+        margin-top: -16px;
+      }
+    }
+  }
+}
+.xg .senderDetail .ant-row.ant-form-item {
+  border: none;
+}
+.senderDetail_pay {
+  background: #FFF7C8;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.10);
+  height: 50px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF4444;
+  a {
+    color: #198af0;
+  }
+}

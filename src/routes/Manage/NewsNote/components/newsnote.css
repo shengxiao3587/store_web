@@ -1,0 +1,9 @@
+.newsNote .ant-table-tbody>tr>td{
+  white-space: pre-line !important;
+}
+.newsNote td .newsNote_result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

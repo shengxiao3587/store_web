@@ -1,0 +1,77 @@
+.riderDetail_table {
+  width: 90%;
+  margin: auto;
+}
+.riderDetail {
+  .ant-form-item-label label {
+    color: #999999;
+  }
+  .riderDetail_title_INIT, .riderDetail_title_STORE, .riderDetail_title_CITY_BD, .riderDetail_title_OP {
+    font-size: 20px;
+    color: #1D61F0;
+    margin-left: 10px;
+  }
+  .riderDetail_title_FAIL {
+    font-size: 20px;
+    color: #FF4444;
+    margin-left: 10px;
+  }
+  .riderDetail_title_INVALID {
+    font-size: 20px;
+    color: #FF4444;
+    margin-left: 10px;
+  }
+  .riderDetail_title_SUCCESS {
+    font-size: 20px;
+    color: #09BD26;
+    margin-left: 10px;
+  }
+  .riderDetail_title_freeze {
+    font-size: 20px;
+    color: #FF4444;;
+    margin-left: 10px;
+  }
+  .riderDetail_title_undefined {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .ant-table-row:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  .ant-table-row:nth-child(2n) {
+    background: #fff;
+  }
+  .ant-table-thead>tr>th {
+    background: #fff;
+  } 
+  .ant-row {
+    margin-bottom: 30px;
+  }
+  .ant-row.ant-form-item.no_rightBorder-form-item {
+    border-right: none;
+  }
+  .ant-row.ant-form-item.bottomBorder-form-item {
+    border-right: none;
+    border-bottom: 0.5px solid #e6e6e6;
+  }
+  .ant-form-title {
+    margin-bottom: 0px;
+    opacity: 0.99;
+    background: #F1F1F1;
+    box-shadow: 0 0 4px 0 rgba(204,204,204,0.20);
+    border-radius: 2px;
+  }
+  .ant-table-wrapper {
+    margin-top: 0px;
+  }
+  .riderDetail_title {
+    font-size: 20px;
+    color: #333333;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ant-row.ant-form-item.detailPage_formitem {
+    height: 30px;
+  }
+}

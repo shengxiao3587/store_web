@@ -1,0 +1,131 @@
+{
+  "resultCode": "0",
+  "resultData": {
+    "totalSize": 12,
+    "pageSize": 10,
+    "pageNo": 1,
+    "list": [
+      {
+        "waybillNo": "运单号1",
+        "expressCompany": "快递公司1",
+        "waybillStatus": 1,
+        "areaNum": "取件号1",
+        "receiverPhone": "收件人电话1",
+        "operatorId": "操作人1",
+        "updateTime": "操作时间1",
+        "remainDay": "在库时长1"
+      },
+      {
+        "waybillNo": "运单号2",
+        "expressCompany": "快递公司2",
+        "waybillStatus": 2,
+        "areaNum": "取件号2",
+        "receiverPhone": "收件人电话2",
+        "operatorId": "操作人2",
+        "updateTime": "操作时间2",
+        "remainDay": "在库时长2"
+      },
+      {
+        "waybillNo": "运单号3",
+        "expressCompany": "快递公司1",
+        "waybillStatus": 4,
+        "areaNum": "取件号1",
+        "receiverPhone": "收件人电话1",
+        "operatorId": "操作人1",
+        "updateTime": "操作时间1",
+        "remainDay": "在库时长1"
+      },
+      {
+        "waybillNo": "运单号4",
+        "expressCompany": "快递公司2",
+        "waybillStatus": 0,
+        "areaNum": "取件号2",
+        "receiverPhone": "收件人电话2",
+        "operatorId": "操作人2",
+        "updateTime": "操作时间2",
+        "remainDay": "在库时长2"
+      },
+      {
+        "waybillNo": "运单号5",
+        "expressCompany": "快递公司1",
+        "waybillStatus": 4,
+        "areaNum": "取件号1",
+        "receiverPhone": "收件人电话1",
+        "operatorId": "操作人1",
+        "updateTime": "操作时间1",
+        "remainDay": "在库时长1"
+      },
+      {
+        "waybillNo": "运单号6",
+        "expressCompany": "快递公司2",
+        "waybillStatus": 2,
+        "areaNum": "取件号2",
+        "receiverPhone": "收件人电话2",
+        "operatorId": "操作人2",
+        "updateTime": "操作时间2",
+        "remainDay": "在库时长2"
+      },
+      {
+        "waybillNo": "运单号7",
+        "expressCompany": "快递公司1",
+        "waybillStatus": 1,
+        "areaNum": "取件号1",
+        "receiverPhone": "收件人电话1",
+        "operatorId": "操作人1",
+        "updateTime": "操作时间1",
+        "remainDay": "在库时长1"
+      },
+      {
+        "waybillNo": "运单号8",
+        "expressCompany": "快递公司2",
+        "waybillStatus": 2,
+        "areaNum": "取件号2",
+        "receiverPhone": "收件人电话2",
+        "operatorId": "操作人2",
+        "updateTime": "操作时间2",
+        "remainDay": "在库时长2"
+      },
+      {
+        "waybillNo": "运单号9",
+        "expressCompany": "快递公司1",
+        "waybillStatus": 1,
+        "areaNum": "取件号1",
+        "receiverPhone": "收件人电话1",
+        "operatorId": "操作人1",
+        "updateTime": "操作时间1",
+        "remainDay": "在库时长1"
+      },
+      {
+        "waybillNo": "运单号10",
+        "expressCompany": "快递公司2",
+        "waybillStatus": 2,
+        "areaNum": "取件号2",
+        "receiverPhone": "收件人电话2",
+        "operatorId": "操作人2",
+        "updateTime": "操作时间2",
+        "remainDay": "在库时长2"
+      },
+      {
+        "waybillNo": "运单号11",
+        "expressCompany": "快递公司1",
+        "waybillStatus": 1,
+        "areaNum": "取件号1",
+        "receiverPhone": "收件人电话1",
+        "operatorId": "操作人1",
+        "updateTime": "操作时间1",
+        "remainDay": "在库时长1"
+      },
+      {
+        "waybillNo": "运单号12",
+        "expressCompany": "快递公司2",
+        "waybillStatus": 2,
+        "areaNum": "取件号2",
+        "receiverPhone": "收件人电话2",
+        "operatorId": "操作人2",
+        "updateTime": "操作时间2",
+        "remainDay": "在库时长2"
+      }
+    ]
+  },
+  "resultDesc": "SUCCESS"
+}

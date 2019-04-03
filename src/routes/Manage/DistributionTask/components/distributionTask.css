@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.distributionTask_expressCompany {
+  background: rgb(25, 138, 240);
+  color: white;
+  padding: 3px;
+  margin-right: 6px;
+  border-radius: 4px;
+}
+.distributionTask_waybillNo {
+  color: rgb(25, 138, 240);
+  font-weight: bold;
+}
+.distributionTask_distributionStatus {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #333333;
+}
+.distributionTask .distributionTask_button {
+  background: #FF4E08;
+  border-radius: 1px;
+  color: white;
+}
+.distributionTask .ant-tabs-bar {
+  margin: 0px 16px;
+}
+.distributionTask .distributionTask_a {
+  float: left;
+  margin-left: 16px;
+}
+.ant-table-row .addressReceived {
+  color: #333;
+  font-weight: normal;
+}

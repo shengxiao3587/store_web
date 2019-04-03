@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.senderTask_expressCompany {
+  background: rgb(25, 138, 240);
+  color: white;
+  padding: 3px;
+  margin-right: 6px;
+  border-radius: 4px;
+}
+.noexitWaybillNo {
+  float: left;
+  margin-left: 16px;
+}
+.senderTask_expressCompany:hover{
+  color: white;
+}
+.senderTask_click,
+.addressReceived {
+  color: rgb(25, 138, 240);
+  font-weight: bold;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.senderTask_click:hover {
+  color: rgb(25, 138, 240);
+  font-weight: bold;
+}
+.senderTask_Left {
+  display: inline-flex;
+  width: 250px;
+  justify-content: flex-start;
+  align-content: center;
+}
+.SenderTask .distributionTask_button {
+  background: white;
+  border-radius: 1px;
+  color: #999999;
+  border-color: #cccccc;
+}
+.SenderTask .ant-tabs-bar {
+  margin: 0px 16px;
+}
+.SenderTask .SenderTask_a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 16px;
+}
+.xg .SenderTask .waitExpress_span{
+  height:28px;
+  line-height: 48px;
+  color: #FF4E08;
+  font-size: 12px;
+  margin-bottom: -18px;
+  a{
+    color: #1D61F0;
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "resultCode": "0",
+  "resultData": [
+    {
+      "id": "11",
+      "name": "首页",
+      "href": "/Manage/HomePage",
+      "permission": ["manage", "employee"],
+      "icon": "home"
+    },
+    {
+      "id": "12",
+      "name": "包裹操作",
+      "icon": "inbox",
+      "permission": ["manage", "employee"],
+      "children": [
+        {
+          "id": "121",
+          "name": "包裹查询",
+          "href": "/Manage/Expressage",
+          "permission": ["manage", "employee"]
+        }, {
+          "id": "122",
+          "name": "包裹入库",
+          "href": "/Manage/Piecein",
+          "permission": ["manage", "employee"]
+        }, {
+          "id": "123",
+          "name": "包裹签收",
+          "href": "/Manage/piecesign",
+          "permission": ["manage", "employee"]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "任务大厅",
+      "permission": ["manage", "employee"],
+      "icon": "appstore-o",
+      "children": [
+        {
+          "id": "161",
+          "name": "配送任务",
+          "permission": ["manage", "employee"],
+          "href": "/Manage/DistributionTask"
+        }, {
+          "id": "162",
+          "name": "寄件任务",
+          "permission": ["manage", "employee"],
+          "href": "/Manage/SenderTask"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "门店信息",
+      "icon": "shop",
+      "permission": ["manage"],
+      "children": [
+        {
+          "id": "131",
+          "name": "基础信息",
+          "href": "/Manage/PersonalCenter",
+          "permission": ["manage"]
+        },
+        {
+          "id": "132",
+          "name": "我的钱包",
+          "href": "/Manage/Wallet",
+          "permission": ["manage"]
+        },
+        {
+          "id": "133",
+          "name": "员工管理",
+          "href": "/Manage/EmployeeList",
+          "permission": ["manage"]
+        },
+        {
+          "id": "134",
+          "name": "合作对象",
+          "href": "/Manage/Partner",
+          "permission": ["manage"]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "设置",
+      "icon": "setting",
+      "permission": ["manage", "employee"],
+      "children": [
+        {
+          "id": "141",
+          "name": "操作设置",
+          "permission": ["manage", "employee"],
+          "href": "/Manage/PickUp"
+        }, {
+          "id": "142",
+          "name": "用户标记",
+          "href": "/Manage/nameList",
+          "permission": ["manage", "employee"]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "短信记录",
+      "icon": "mail",
+      "permission": ["manage", "employee"],
+      "children": [
+        {
+          "id": "151",
+          "name": "短信记录",
+          "permission": ["manage", "employee"],
+          "href": "/Manage/newsNote"
+        }
+      ]
+    }],
+  "resultDesc": "SUCCESS"
+}

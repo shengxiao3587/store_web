@@ -1,0 +1,28 @@
+.xg .nameList .ant-table-tbody>tr>td a {
+  color: #198AF0;
+}
+.xg .nameListModal .ant-modal-body .ant-row.ant-form-item.remark-form-item .ant-col-6.ant-form-item-label {
+  margin-top: -5px;
+}
+.xg .nameList_span {
+  height:28px;
+  display: inline-block;
+  line-height: 48px;
+  color: #FF4E08;
+  font-size: 12px;
+  margin-bottom: -10px;
+}
+.xg .nameList .ant-table-tbody>tr>td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.xg .nameList .ant-table-wrapper {
+  margin-top: 5px;
+}
+.xg .nameList .tableremark {
+  width: 304px;
+}
+.xg .nameList td.tableremark {
+  text-align: left!important;
+}
+

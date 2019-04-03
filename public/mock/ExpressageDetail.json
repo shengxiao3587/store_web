@@ -1,0 +1,22 @@
+{
+  "resultCode": "0",
+  "resultData": {
+    "returnReason": "不喜欢",
+    "waybillNo": "运单号",
+    "expressCompany": "新光",
+    "receiverPhone": "收件人电话",
+    "areaNum": "取件号",
+    "remainDay": "一天",
+    "inOperator": "入库人",
+    "inTime": "入库时间",
+    "outOperator": "出库人",
+    "outTime": "出库时间",
+    "signOperator": "签收人",
+    "signTime": "签收时间",
+    "updateOperator": "更新人",
+    "updateTime": "更新时间",
+    "returnOperator": "退回人",
+    "waybillStatus": 4
+  },
+  "resultDesc": "SUCCESS"
+}

@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+.wallet {
+  flex: 1;
+  margin: 0 16px 16px;
+  .wallet_packageBill_button1 {
+    margin: 20px 0px;
+    button {
+      margin-left: 20px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+  .wallet_packageBill_button2 {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #FF4E08;
+  }
+}
+.wallet_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.wallet_div_logo {
+  width: 17.4%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(204,204,204,0.20);
+  border-radius: 2px;
+}
+/*.wallet_div_logo div {
+  height: 100%;
+  width: 100%;
+}*/
+.wallet_div_logo img {
+  width: 92px;
+}
+.wallet_div_money {
+  width: 80%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(204,204,204,0.20);
+  border-radius: 2px;
+}
+.wallet .wallet_h2 {
+  font-size: 20px;
+  color: #333333;
+}
+.wallet_balance_rmb {
+  font-weight: bold;
+}
+.wallet_balance {
+  font-size: 36px;
+  color: #333333;
+  span {
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+.wallet_storeName {
+  font-size: 20px;
+  color: #333333;
+}
+.wallet_div_money_div {
+  width: 100%;
+  height: 28%;
+  background: #F9F9F9;
+  box-shadow: 0 2px 4px 0 rgba(204,204,204,0.20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet_entryMoney, .wallet_receiptMan {
+  font-size: 20px;
+  color: #333333;
+}
+.wallet_receiptMan_father {
+  margin-left: 11.3%;
+}
+.wallet_div_money_balance {
+  width: 100%;
+  height: 72%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .btnout {
+    font-size: 20px;
+    color: #1D61F0;
+    border-color: #1D61F0;
+    border-radius: 28px;
+    margin-left: 32px;
+    width: 100px;
+    padding: 0;
+  }
+}
+.xg .newsBackgroundColor-form-item{
+  background: white;
+  padding-left: 192px;
+  color: #FF4444;
+  font-size: 16px;
+}
+.xg .newsBackgroundColorInsert-form-item{
+  background: white;
+  padding-left: 124px;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.xg .newsError-form-item{
+  background: #ffffff;
+  text-align: center;
+  color: #FF0000;
+  font-size: 16px;
+}
+.wallet .myBank{
+  width: 100%;
+  height:240px;
+  background: white;
+  .myBank_title {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 16px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  .bindBank {
+    width: 100%;
+    height:200px;
+    .nullBank {
+      width: 100%;
+      height:140px;
+      margin: 30px 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      p{
+        font-size: 16px;
+        color: #333333;
+      }
+      .btn {
+        background: #FFFFFF;
+        border: 1px solid #1D61F0;
+        border-radius: 28px;
+        font-size: 24px;
+        color: #1D61F0;
+      }
+    }
+    .removeBank {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 220px;
+        height: 140px;
+        border-radius: 4px;
+        background: #FFF01C;
+        padding: 16px;
+        margin-left: 32px;
+        background: linear-gradient(to bottom, #FFF01C 100%,#FFDA01 100%);
+        background: -moz-linear-gradient(top, #FFF01C 0%, #FFDA01 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF01C), color-stop(100%,#FFDA01));
+        background: -webkit-linear-gradient(top, #FFF01C 0%,#FFDA01 100%);
+        background: -o-linear-gradient(top, #FFF01C 0%,#FFDA01 100%);
+        background: -ms-linear-gradient(top, #FFF01C 0%,#FFDA01 100%);
+        background: linear-gradient(to bottom, #FFF01C 0%,#FFDA01 100%);
+        img {
+          width: 112px;
+          height: 32px;
+          vertical-align: middle;
+        }
+        .Wallet_bankStyle_bankNum {
+          font-size: 14px;
+          padding-left: 6px;
+          color: #333;
+        }
+        .Wallet_bankStyle_bankType{
+          font-size: 16px;
+          padding-left: 6px;
+          color: #333;
+        }
+      }
+      .btn {
+        margin-left: 64px;
+        font-size: 20px;
+        color: #999999;
+        border: 1px solid #999999;
+      }
+    }
+  }
+
+}
+.wallet .safeSetting{
+  width: 100%;
+  height:160px;
+  background: white;
+  margin-top: 40px;
+  .myBank_title {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 16px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  .setSecret {
+    width: 100%;
+    height:120px;
+    .nullsecret {
+      width: 100%;
+      height:120px;
+      margin: 0px 16px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      p{
+        font-size: 12px;
+        color: #999999;
+      }
+      .set{
+        font-size: 16px;
+        color: #333333;
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+.wallet .editSetting{
+  width: 100%;
+  height:240px;
+  background: white;
+  margin-top: 40px;
+  .myBank_title {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 16px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  .editSecret {
+    width: 100%;
+    height:200px;
+    .nullsecret {
+      height: 80px;
+      margin: 0px 16px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      p{
+        font-size: 12px;
+        color: #999999;
+      }
+      .set{
+        font-size: 16px;
+        color: #333333;
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+.xg  .captchaBtn-btn{
+  height: 40px;
+}
+
+.xg .error_explain .ant-form-explain {
+  height: 21px;
+  margin-bottom: 0px;
+}

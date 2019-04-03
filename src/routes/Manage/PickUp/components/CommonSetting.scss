@@ -1,0 +1,42 @@
+// 鼠标移上去换张图
+.xg .pickup {
+  // 取件号设置
+  .pickup_child.areaNum .downStyle .ant-radio-group.ant-radio-group-large {
+    // 第一张： 当未选中的时候鼠标移上变图片
+    .ant-radio-button-wrapper:hover .pickup_radio .pic {
+      background-image: url('//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/Goodsshelves-h@3x.png') !important;
+    }
+    // 第一张： 当已选中的时候鼠标移上变图片
+    .ant-radio-button-wrapper-checked:hover .pickup_radio .pic {
+      background-image: url('//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/Goodsshelves-y@3x.png') !important;
+    }
+    // 第er张： 当未选中的时候鼠标移上变图片
+    .ant-radio-button-wrapper:hover .pickup_radio .picy {
+      background-image: url('//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/number-h@3x.png') !important;
+    }
+    // 第二张： 当已选中的时候鼠标移上变图片
+    .ant-radio-button-wrapper-checked:hover .pickup_radio .picy {
+      background-image: url('//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/number-y@3x.png') !important;
+    }
+  }
+
+  // 取件通知方式
+  .pickup_child.pickUp .downStyle .ant-radio-group.ant-radio-group-large {
+    // 第一张： 当未选中的时候鼠标移上变图片
+    .ant-radio-button-wrapper:hover .pickup_radio .pic {
+      background-image: url('//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/WeChat&message-h@3x.png') !important;
+    }
+    // 第一张： 当已选中的时候鼠标移上变图片
+    .ant-radio-button-wrapper-checked:hover .pickup_radio .pic {
+      background-image: url('//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/WeChat&message-y@3x.png') !important;
+    }
+    // 第er张： 当未选中的时候鼠标移上变图片
+    .ant-radio-button-wrapper:hover .pickup_radio .picy {
+      background-image: url('//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/WeChat-h@3x.png') !important;
+    }
+    // 第二张： 当已选中的时候鼠标移上变图片
+    .ant-radio-button-wrapper-checked:hover .pickup_radio .picy {
+      background-image: url('//tubobo-qd.oss-cn-shanghai.aliyuncs.com/tubobo-storedesk-web/WeChat-y@3x.png') !important;
+    }
+  }
+}

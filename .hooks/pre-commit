@@ -1,0 +1,22 @@
+#!/bin/sh
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep ".jsx\{0,1\}$")
+if [[ "$STAGED_FILES" = "" ]]; then
+  exit 0
+fi
+PASS=true
+echo "\nValidating Javascript:\n"
+npm run lint
+if [[ "$?" == 0 ]]; then
+echo "ESLint Passed"
+else
+echo "ESLint Failed"
+PASS=false
+fi
+echo "Javascript validation completed!"
+if ! $PASS; then
+  echo "COMMIT FAILED:Your commit contains files that should pass ESLint but do not. Please fix the ESLint errors and try again."
+  exit 1
+else
+  echo "COMMIT SUCCEEDED"
+fi
+exit $?

@@ -1,0 +1,29 @@
+{
+  "apiAddress": {
+    "development": "//tubobo-express.dev.ops.com",
+    "dev": "//tubobo-express.dev.ops.com",
+    "qaif": "//tubobo-express.qafc.ops.com",
+    "qafc": "//tubobo-express.qafc.ops.com",
+    "pre": "//expressuat.toobob.com",
+    "online": "//express.toobob.com",
+    "mock": "//172.16.2.71:8068/mockjsdata/23"
+  },
+  "payUrl": {
+    "development": "//tubobo-storedesk-web.dev.ops.com",
+    "dev": "//tubobo-storedesk-web.dev.ops.com",
+    "qaif": "//tubobo-storedesk-web.qafc.ops.com",
+    "qafc": "//tubobo-storedesk-web.qafc.ops.com",
+    "pre": "//139.196.96.161:8034/",
+    "online": "//store.toobob.com/"
+  },
+  "countly": {
+    "appKey": {
+      "development": "54f0a892ed97551c2a3636d9be928bb3d848eacd",
+      "dev": "54f0a892ed97551c2a3636d9be928bb3d848eacd",
+      "pre": "54f0a892ed97551c2a3636d9be928bb3d848eacd",
+      "qafc": "54f0a892ed97551c2a3636d9be928bb3d848eacd",
+      "qaif": "54f0a892ed97551c2a3636d9be928bb3d848eacd",
+      "online": "baef75b7b8ac4ed4fa54dfddfc2db56c3ea37cd5"
+    }
+  }
+}

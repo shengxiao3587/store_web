@@ -1,0 +1,14 @@
+{
+  "plugins": [
+	  	["import", {
+	  		"libraryName": "antd",
+          "style": true   // or 'css'
+		}],
+    ["transform-imports", {
+      "@xinguang/common-tool": {
+        "transform": "@xinguang/common-tool/lib/${member}",
+        "preventFullImport": true
+      }
+    }]
+	]
+}
